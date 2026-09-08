@@ -1,0 +1,28 @@
+{
+  "name": "forcegreen",
+  "displayName": "ForceGreen",
+  "description": "Tema oscuro minimalista negro-gris con verde lima como color principal, acentos morado y aguamarina.",
+  "version": "1.0.0",
+  "publisher": "local",
+  "license": "MIT",
+  "files": [
+    "themes/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ForceGreen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/forcegreen-color-theme.json"
+      }
+    ]
+  }
+}
